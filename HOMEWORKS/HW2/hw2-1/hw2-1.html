@@ -6,31 +6,51 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Document</title>
     <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
         body{
             background: lightgray;
             margin: 0;
-            padding: 10px;
+            padding: 40px;
         }
         h1{
             text-align: center;
+            padding: 0 40px;
         }
         .wrapper{
             height: 100vh;
             display: flex;
-            justify-content: space-evenly;
+            justify-content: center;
             align-items: center;
             flex-wrap: wrap;
+            gap: 20px;
+            padding: 5px;
 
         }
         .card{
-            width: 100px;
-            height: 100px;
-            background: lightgray;
+            width: 250px;
+            height: 300px;
             border: 2px solid rgba(128, 128, 128, 0.76);
-            border-radius: 5px;
+            border-radius: 50px;
             display: flex;
             justify-content: center;
             align-items: center;
+            flex-direction: column;
+            gap: 30px;
+        }
+        .card p{
+            font-size: 25px;
+            font-weight: 400;
+        }
+        .card img{
+            width: 65%;
+
+        }
+        h2{
+            text-align: center;
+            padding: 20px 0;
         }
     </style>
 </head>
@@ -38,46 +58,47 @@
 <h1>What do i have in my fridge?</h1>
     <div class="wrapper">
         <div class="card">
-            <img src="" alt="">
-            <p>Papper</p>
+            <img src="https://cdn.shopify.com/s/files/1/0531/6614/5697/products/PF-BellPepper.png?v=1641991149" alt="Pepper">
+            <p>Pepper</p>
         </div>
         <div class="card">
-            <img src="" alt="">
+            <img src="https://waapple.org/wp-content/uploads/2021/06/Untitled-design-20-e1745534545813-658x677.png" alt="Apple">
             <p>Apple</p>
         </div>
         <div class="card">
-            <img src="" alt="">
+            <img src="https://png.pngtree.com/png-clipart/20250507/original/pngtree-piece-of-cheese-on-white-background-png-image_20943270.png" alt="Cheese">
             <p>Cheese</p>
         </div>
         <div class="card">
-            <img src="" alt="">
+            <img src="https://fc.vseosvita.ua/002brz-4fc8/014.gif" alt="Corn">
             <p>Corn</p>
         </div>
         <div class="card">
-            <img src="" alt="">
+            <img src="https://otvalentiny.od.ua/upload/image/store/products/product-3/shampin-yen-krupnyy-1-kg-87.png" alt="Mushroom">
             <p>Mushroom</p>
         </div>
         <div class="card">
-            <img src="" alt="">
+            <img src="https://kotanyi-ua.imgix.net/wp-content/uploads/2019/04/knoblauch-kotanyi-inhalt.png?auto=format,compress" alt="Garlic">
             <p>Garlic</p>
         </div>
         <div class="card">
-            <img src="" alt="">
+            <img src="https://png.pngtree.com/png-clipart/20250515/original/pngtree-a-fresh-marbled-piece-of-beef-ribeye-steak-with-rich-red-png-image_21000218.png" alt="Beaf">
             <p>Beaf</p>
         </div>
         <div class="card">
-            <img src="" alt="">
+            <img src="https://png.pngtree.com/png-clipart/20240725/original/pngtree-piece-of-fresh-raw-fish-sparus-sea-fishing-photo-png-image_15628286.png" alt="Fish">
             <p>Fish</p>
         </div>
         <div class="card">
-            <img src="" alt="">
+            <img src="https://vegetableandbutcher.com/cdn/shop/products/eggscrop.png?v=1720531852" alt="Eggs">
             <p>Eggs</p>
         </div>
         <div class="card">
-            <img src="" alt="">
+            <img src="https://www.jamoona.com/cdn/shop/files/1-Bund-Frische-Dhaniya--Korianderblaetter--9018464.png?v=1753368813" alt="Coriander">
             <p>Coriander</p>
         </div>
     </div>
-
+<hr>
+<h2>...that's all</h2>
 </body>
 </html>
