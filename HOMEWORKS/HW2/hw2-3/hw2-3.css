@@ -1,0 +1,31 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.flex{
+    height: 800px;
+    background-color: #3f653f;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.month{
+    height: 210px;
+    width: 230px;
+    background-color: #a8bfa8;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    border-radius: 5px;
+}
+.month h4{
+    margin: 5px 10px;
+}
+.month p{
+    margin: 5px 10px;
+    color: rgba(0, 0, 0, 0.64);
+}
+.month:hover{
+    transform: scale(1.2);
+}
