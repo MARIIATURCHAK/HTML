@@ -32,12 +32,12 @@ header, section, aside, footer{
 main{
     display: flex;
 }
-.main__aside-top-section{
+.main__aside-top{
     height: 30vh;
     width: 27vw;
     background: #937575;
 }
-.main__aside-bottom-section{
+.main__aside-bottom{
     height: 30vh;
     width: 27vw;
     background: #644C4C;
