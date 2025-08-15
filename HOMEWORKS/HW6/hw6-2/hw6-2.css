@@ -1,0 +1,61 @@
+body{
+    height: 100vh;
+    margin: 0;
+    background-color: #028B8B;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.form-registration {
+    width: 530px;
+    height: 400px;
+    background-color: white;
+    border-radius: 10px;
+    font-family: "Roboto", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 100;
+}
+.form-registration div:nth-child(1) h3{
+    font-family: "Roboto", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-size: 30px;
+}
+.form-registration div:nth-child(1){
+    background-color: #E9F3F3;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   height: 22%;
+}
+.form-registration form{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: column;
+}
+input[type="text"],
+input[type="password"]{
+    width: 400px;
+    height: 40px;
+    margin: 15px;
+    border: 2px solid rgba(128, 128, 128, 0.73);
+}
+.form-registration>form>div{
+    width: 400px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 15px;
+}
+span{
+    color: rgba(8, 8, 9, 0.75);
+}
+form input[type="submit"]{
+    background-color: #E9F3F3;
+    width: 100px;
+    height: 30px;
+    border-radius: 10px;
+    border: 1px solid grey;
+    color: rgba(8, 8, 9, 0.75)
+}
