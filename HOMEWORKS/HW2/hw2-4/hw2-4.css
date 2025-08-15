@@ -1,0 +1,26 @@
+.wrapper{
+    display: flex;
+    justify-content: space-evenly;
+}
+.block{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #d1efd1;
+    height: 150px;
+    width: 150px;
+}
+.rubik{
+    font-family: "Rubik Pixels", system-ui;
+}
+.sedgwick{
+    font-family: "Sedgwick Ave Display", cursive;
+}
+.dancing{
+    font-family: "Dancing Script", cursive;}
+.fjalla{
+    font-family: "Fjalla One", sans-serif;
+}
+.indie{
+    font-family: "Indie Flower", cursive;
+}
