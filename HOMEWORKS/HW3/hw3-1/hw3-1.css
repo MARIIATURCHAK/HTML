@@ -1,0 +1,30 @@
+body{
+    margin: 2%;
+}
+header{
+    height: 50vh;
+    background-color: #3737ed;
+}
+.wrapper{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 0;
+}
+section{
+    height: 50vh;
+    width: 31%;
+    background-color: #2828af;
+
+}
+footer{
+    height: 100vh;
+    background-color: #3737ed;
+}
+header, section, footer{
+    color: #e3e2e2;
+    font-size: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
