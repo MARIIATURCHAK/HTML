@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Bilbo&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
 *{ margin: 0;
     padding: 0;
     text-decoration: none;
@@ -13,31 +13,30 @@ body{
     flex-direction: column;
 }
 .form-registration{
-    width: 500px;
-    height: 600px;
+    width: 550px;
+    height: 650px;
     border: 2px solid rgba(128, 128, 128, 0.39);
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
 }
-h1{
-    font-family: "Bilbo", cursive;
-    font-weight: 600;
-    font-style: normal;
-    font-size: 80px;
+.form-registration img{
+    width: 300px;
+    height: 106px;
+    padding-bottom: 40px;
 }
 .form-registration form{
     display: flex;
     flex-direction: column;
-    margin: 30px 0;
+    margin: 25px 0;
 }
 input[type="text"],
 input[type="password"]{
     width: 400px;
     height: 50px;
     border: 2px solid rgba(128, 128, 128, 0.39);
-    border-radius: 5px;
+    border-radius: 3px;
     font-size: 20px;
     margin: 5px 0;
     padding-left: 10px;
@@ -55,13 +54,19 @@ input[type=submit]{
 
 .or{
     font-size: 20px;
-    color: rgba(19, 19, 19, 0.63);
-    margin-bottom:25px
+    color: rgba(19, 19, 19, 0.55);
+    margin-bottom: 50px;
+    font-family: "Rubik", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-size: 22px;
 }
 .login-facebook{
     font-size: 24px;
     color: #375185;
     padding-left: 20px;
+    font-family: "Rubik", sans-serif;
+    font-weight: 600;
 }
 .login-facebook::before{
     content: "";
@@ -75,19 +80,25 @@ input[type=submit]{
 .forgot-password{
     font-size: 20px;
     color: #375185;
-    margin-top: 20px;
+    padding-top: 40px;
+    font-family: "Rubik", sans-serif;
+    font-weight: 400;
 }
 .signup{
-    width: 500px;
-    height: 80px;
+    width: 550px;
+    height: 90px;
     border: 2px solid rgba(128, 128, 128, 0.39);
     display: flex;
     justify-content: center;
     align-items: center;
-    font-size: 24px;
+    font-size: 22px;
     margin-top: 20px;
+    font-family: "Rubik", sans-serif;
+    font-weight: 500;
 }
 .signup a{
-    color: #68B5FA;
+    color: #4d9be1;
     padding-left: 10px;
+    font-family: "Rubik", sans-serif;
+    font-weight: 500;
 }
