@@ -1,0 +1,15 @@
+@media screen and (max-width: 480px) {
+    .cards{
+        width: 343px;
+    }
+    .card__top, .card__bottom{
+        width: 100%;
+        display: block;
+        margin: 32px 16px;
+
+    }
+    .card{
+        width: 100%;
+        margin: 40px 0;
+    }
+}
