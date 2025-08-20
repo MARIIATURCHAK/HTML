@@ -1,0 +1,80 @@
+*{
+    margin: 0;
+}
+.grid{
+    display: grid;
+    height: 100vh;
+    grid-template-columns: 2fr 1fr;
+    grid-template-rows: 1fr 1fr 0.5fr 0.5fr 1fr 1fr;
+    grid-template-areas:
+    "header header"
+    "content_one spam_one"
+    "content_two spam_one"
+    "content_two spam_two"
+    "content_tree spam_two"
+    "footer footer";
+}
+.grid :nth-child(n){
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+header{
+    grid-area: header;
+    background: #8D8484;
+    font-family: "Inter", sans-serif;
+    font-size: 45px;
+    line-height: 100%;
+
+}
+.content_one{
+    grid-area: content_one;
+    background: #776969;
+    font-family: "Inter", sans-serif;
+    font-size: 45px;
+    line-height: 100%;
+    color: #FFFFFF;
+
+
+
+}
+.content_two{
+    grid-area: content_two;
+    background: #643030;
+    font-family: "Inter", sans-serif;
+    font-size: 45px;
+    line-height: 100%;
+    color: #FFFFFF;
+}
+.content_tree{
+    grid-area: content_tree;
+    background: #441818;
+    font-family: "Inter", sans-serif;
+    font-size: 45px;
+    line-height: 100%;
+    color: #FFFFFF;
+}
+.spam_one{
+    grid-area: spam_one;
+    background: #937575;
+    font-family: "Inter", sans-serif;
+    font-size: 45px;
+    line-height: 100%;
+    color: #FFFFFF;
+
+}
+.spam_two{
+    grid-area: spam_two;
+    background: #644C4C;
+    font-family: "Inter", sans-serif;
+    font-size: 45px;
+    line-height: 100%;
+    color: #FFFFFF;
+}
+footer{
+    grid-area: footer;
+    background: #BDBDBD;
+    font-family: "Inter", sans-serif;
+    font-size: 45px;
+    line-height: 100%;
+}
