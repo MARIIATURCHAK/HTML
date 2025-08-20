@@ -1,0 +1,19 @@
+@media screen and (max-width: 480px) {
+    .wrapper {
+        width: 343px;
+        flex-wrap: wrap;
+        margin: 32px auto;
+        gap: 32px;
+    }
+
+    .card {
+        width: 100%;
+    }
+    .card img {
+        width: 128px;
+        height: 128px;
+    }
+    .card h3{
+        margin: 16px 0 8px 0;
+    }
+}
