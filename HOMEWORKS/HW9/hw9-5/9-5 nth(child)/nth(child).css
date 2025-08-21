@@ -9,7 +9,7 @@
     grid-template-areas:
     "header header header"
     "section__left section__middle aside__top"
-    "section__left section__middle aside__bottom";
+    "section__left section__middle aside__bottom"
     "footer footer footer";
 }
 .grid header{
